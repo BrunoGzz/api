@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'db49c35828f45b47abdcad5f0de79444b3f24d0b',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'db49c35828f45b47abdcad5f0de79444b3f24d0b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'donatello-za/rake-php-plus' => array(
+            'pretty_version' => 'v1.0.18',
+            'version' => '1.0.18.0',
+            'reference' => 'e9e9c0862b3dc953d288e8f42c76e4ceaeca0619',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../donatello-za/rake-php-plus',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'php-ai/php-ml' => array(
+            'pretty_version' => '0.10.0',
+            'version' => '0.10.0.0',
+            'reference' => '543f11158c57bf64ef8ddecd5bab51d396d39f50',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-ai/php-ml',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
